@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+*.rpyc
+game/bilingual_config.json
+game/bilingual_cache.json*
+game/bilingual_backup/
+game/bilingual_fonts/
+game/bilingual_certs/
+game/saves/
+*.log

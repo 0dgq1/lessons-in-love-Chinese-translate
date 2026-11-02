@@ -1,0 +1,11 @@
+{
+  "enabled": false,
+  "provider": "deepseek",
+  "base_url": "https://api.deepseek.com",
+  "model": "deepseek-flash",
+  "api_key": "",
+  "timeout": 30,
+  "font": "bilingual_fonts/msyh.ttc",
+  "prefetch_lines": 3,
+  "quality_mode": false
+}

@@ -1,0 +1,22 @@
+        if lil_bilingual.runtime.enabled:
+            fixed:
+                xpos gui.dialogue_xpos
+                ypos gui.dialogue_ypos
+                xsize gui.dialogue_width
+                ysize 110
+                clipping True
+                viewport:
+                    id "bilingual_dialogue"
+                    xysize (gui.dialogue_width, 110)
+                    mousewheel True
+                    vbox:
+                        xsize gui.dialogue_width
+                        spacing 8
+                        text what id "what":
+                            xpos 0
+                            ypos 0
+                            xsize gui.dialogue_width
+                            size 28
+                        use bilingual_translation(what)
+        else:
+            text what id "what"
